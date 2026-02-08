@@ -15,6 +15,15 @@ You can contribute in many ways:
 - **UI/UX:** Improve the design or user experience of the frontend.
 - **Issues:** Report bugs or suggest new features.
 
+### Suggested Starter Issues (Easy/Medium)
+
+If there are no open issues yet, here are a few ideas to get started. Feel free to open a GitHub issue using one of these:
+
+- **Easy:** Replace the map placeholder in `frontend/src/pages/TripManage.jsx` with the existing map component (e.g., `StaticMap`) and show the property location.
+- **Easy:** Update `frontend/src/App.test.js` (currently the default CRA test) to render the app with a `MemoryRouter` and assert on real UI text.
+- **Medium:** Wire up Socket.io message events (see the commented `req.io` block in `backend/controllers/messageController.js`) and listen in `frontend/src/pages/Messages.jsx` for real-time updates.
+- **Medium:** Add booking date conflict validation in `backend/controllers/bookingController.js` to prevent overlapping reservations.
+
 ## 2. Project Setup
 
 Follow these steps to get the project running on your local machine.
